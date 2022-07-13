@@ -36,6 +36,9 @@ func main() {
 	////struct mein struct
 	//makeclass()
 	//checkconcurrency()
-	pushtochannelandread()
+	//pushtochannelandread()
+	//Reducewithsum()
+	GetValuesFromDytePayload()
+	//createChannelandcollect()
 
 }
