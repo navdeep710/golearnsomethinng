@@ -38,7 +38,11 @@ func main() {
 	//checkconcurrency()
 	//pushtochannelandread()
 	//Reducewithsum()
-	GetValuesFromDytePayload()
+	//GetValuesFromDytePayload()
 	//createChannelandcollect()
+	testMapperSequential(multiplyByTwo)
+	testMapperConcurrent(multiplyByTwo)
+	testMapperConcurrent(multiplyByTwoWithSleep)
+	testMapperSequential(multiplyByTwoWithSleep)
 
 }
